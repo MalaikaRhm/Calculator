@@ -19,6 +19,7 @@ function calculate(operation) {
       case 'divide':
         result = (b !== 0) ? (a / b) : "❌ Error: Division by zero";
         break;
+       //More functions to add//
     }
   }
   document.getElementById("result").innerHTML = "Result: " + result;
@@ -29,3 +30,4 @@ function clearResult() {
   document.getElementById("num2").value = "";
   document.getElementById("result").innerHTML = "";
 }
+
